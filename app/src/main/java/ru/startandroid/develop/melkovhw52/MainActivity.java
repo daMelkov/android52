@@ -64,6 +64,11 @@ public class MainActivity extends AppCompatActivity {
                 intent = new Intent(MainActivity.this, FormActivity.class);
                 startActivity(intent);
                 return true;
+
+            case R.id.action_first:
+                intent = new Intent(MainActivity.this, SplashScreenActivity.class);
+                startActivity(intent);
+                return true;
         }
 
         return super.onOptionsItemSelected(item);

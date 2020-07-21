@@ -62,9 +62,9 @@
         android:autofillHints=""
         android:hint="@string/step_count"
         android:inputType="number"
-        app:layout_constraintEnd_toEndOf="@+id/edtName"
-        app:layout_constraintStart_toStartOf="@+id/edtName"
-        app:layout_constraintTop_toBottomOf="@+id/edtName" />
+        app:layout_constraintEnd_toEndOf="@+id/edtWeight"
+        app:layout_constraintStart_toStartOf="@+id/edtWeight"
+        app:layout_constraintTop_toBottomOf="@+id/edtWeight" />
 
     <Button
         android:id="@+id/btnSaveLifeValues"
