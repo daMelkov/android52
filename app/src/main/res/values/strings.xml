@@ -40,4 +40,20 @@
     <string name="by_cash">Наличными по адресу</string>
     <string name="payment_fail">Укажите параметры оплаты!</string>
     <string name="payment_complete">Оплата на сумму %s проведена (%s).</string>
+    <string name="fio">Фамилия Имя Отчество</string>
+    <string name="age">Возраст</string>
+    <string name="title">Комплексная система мониторинга здоровья</string>
+    <string name="author">Мелков Д.А.</string>
+    <string name="logo">Логотип</string>
+    <string name="pressure">Давление</string>
+    <string name="life_value">Жизненные показатели</string>
+    <string name="systolic">Верхнее давление</string>
+    <string name="diastolic">Нижнее давление</string>
+    <string name="pulse">Пульс</string>
+    <string name="tachycardia">Тахикардия</string>
+    <string name="date">Дата замера</string>
+    <string name="weight">Вес</string>
+    <string name="step_count">Количество шагов</string>
+    <string name="time">Время замера</string>
+    <string name="monitoring">3 Мониторинг здоровья</string>
 </resources>

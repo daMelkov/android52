@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="inner_space">16dp</dimen>
+    <dimen name="activity_padding">24dp</dimen>
+    <dimen name="widget_top_space">24dp</dimen>
 </resources>

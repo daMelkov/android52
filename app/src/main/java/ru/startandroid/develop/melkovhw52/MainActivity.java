@@ -49,6 +49,11 @@ public class MainActivity extends AppCompatActivity {
                 intent = new Intent(MainActivity.this, CheckActivity.class);
                 startActivity(intent);
                 return true;
+
+            case R.id.action_monitoring:
+                intent = new Intent(MainActivity.this, MedicalActivity.class);
+                startActivity(intent);
+                return true;
         }
 
         return super.onOptionsItemSelected(item);
