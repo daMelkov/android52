@@ -65,8 +65,13 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
                 return true;
 
-            case R.id.action_first:
+            case R.id.action_first_b:
                 intent = new Intent(MainActivity.this, SplashScreenActivity.class);
+                startActivity(intent);
+                return true;
+
+            case R.id.action_first_a:
+                intent = new Intent(MainActivity.this, FirstActivity.class);
                 startActivity(intent);
                 return true;
         }

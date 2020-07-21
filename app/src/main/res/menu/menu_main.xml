@@ -46,8 +46,14 @@
         app:showAsAction="never" />
 
     <item
-        android:id="@+id/action_first"
+        android:id="@+id/action_first_b"
         android:orderInCategory="800"
+        android:title="@string/first_b"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_first_a"
+        android:orderInCategory="900"
         android:title="@string/first"
         app:showAsAction="never" />
 

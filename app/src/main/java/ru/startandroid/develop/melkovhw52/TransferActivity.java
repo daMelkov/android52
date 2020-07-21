@@ -12,7 +12,7 @@ import java.util.Random;
 
 public class TransferActivity extends AppCompatActivity {
 
-    final private static String URL = "http://myfile.org/" + new Random().nextInt(100);
+    final private String URL = "http://myfile.org/" + new Random().nextInt(100);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

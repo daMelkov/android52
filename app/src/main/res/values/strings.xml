@@ -65,5 +65,6 @@
     <string name="clear">Очистить</string>
     <string name="subscription">Подписка</string>
     <string name="form">21 Переход между формами</string>
-    <string name="first">1 Первый проект</string>
+    <string name="first">11 Первый проект</string>
+    <string name="first_b">12 Собственный Hello World</string>
 </resources>
