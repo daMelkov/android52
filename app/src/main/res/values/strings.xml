@@ -60,4 +60,8 @@
     <string name="back">Назад</string>
     <string name="forward">Вперёд</string>
     <string name="transfer">22 Переход между экранами</string>
+    <string name="user_name">Имя пользователя</string>
+    <string name="email">Электронная почта</string>
+    <string name="clear">Очистить</string>
+    <string name="subscription">Подписка</string>
 </resources>
