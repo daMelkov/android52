@@ -33,4 +33,11 @@
         <item>Гомель</item>
         <item>Витебск</item>
     </string-array>
+    <string name="input_money">Ввод денег</string>
+    <string name="input_info">Информация об оплате</string>
+    <string name="bank_card">С банковской карты</string>
+    <string name="mobile_phone">С мобильного телефона</string>
+    <string name="by_cash">Наличными по адресу</string>
+    <string name="payment_fail">Укажите параметры оплаты!</string>
+    <string name="payment_complete">Оплата на сумму %s проведена (%s).</string>
 </resources>
