@@ -20,6 +20,10 @@
         <activity android:name=".TasksActivity"/>
         <activity android:name=".CitiesActivity"/>
         <activity android:name=".CheckActivity"/>
+        <activity android:name=".MedicalActivity"/>
+        <activity android:name=".PressureActivity"/>
+        <activity android:name=".LifeValuesActivity"/>
+        <activity android:name=".TransferActivity"/>
     </application>
 
 </manifest>

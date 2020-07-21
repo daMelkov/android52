@@ -32,4 +32,11 @@
         android:orderInCategory="500"
         android:title="@string/monitoring"
         app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_transfer"
+        android:orderInCategory="600"
+        android:title="@string/transfer"
+        app:showAsAction="never" />
+
 </menu>

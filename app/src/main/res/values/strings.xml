@@ -56,4 +56,8 @@
     <string name="step_count">Количество шагов</string>
     <string name="time">Время замера</string>
     <string name="monitoring">3 Мониторинг здоровья</string>
+    <string name="app_title">Просмотр фото</string>
+    <string name="back">Назад</string>
+    <string name="forward">Вперёд</string>
+    <string name="transfer">22 Переход между экранами</string>
 </resources>

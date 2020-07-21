@@ -6,4 +6,5 @@
     <color name="colorCalendarBackground">#E2E2E2</color>
     <color name="colorButton">#6C976E</color>
     <color name="ic_flower_background">#DC2E3D</color>
+    <color name="colorButtonText">#000000</color>
 </resources>
