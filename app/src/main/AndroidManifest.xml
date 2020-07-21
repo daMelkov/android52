@@ -25,6 +25,8 @@
         <activity android:name=".LifeValuesActivity"/>
         <activity android:name=".TransferActivity"/>
         <activity android:name=".FormActivity"/>
+        <activity android:name=".SplashScreenActivity"/>
+        <activity android:name=".FirstActivity"/>
     </application>
 
 </manifest>
