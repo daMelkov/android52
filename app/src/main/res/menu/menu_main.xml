@@ -6,12 +6,24 @@
     <item
         android:id="@+id/action_settings"
         android:orderInCategory="100"
-        android:title="Settings"
+        android:title="@string/shared_prefs"
         app:showAsAction="never" />
 
     <item
-        android:id="@+id/action_open_notes"
-        android:orderInCategory="100"
-        android:title="Записная книжка"
+        android:id="@+id/action_tasks"
+        android:orderInCategory="200"
+        android:title="@string/tasks"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_cities"
+        android:orderInCategory="300"
+        android:title="@string/cities"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_check"
+        android:orderInCategory="400"
+        android:title="@string/check_box"
         app:showAsAction="never" />
 </menu>

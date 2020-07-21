@@ -7,7 +7,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -28,13 +27,23 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        int id = item.getItemId();
+        Intent intent;
 
-        if (id == R.id.action_open_notes) {
-            Intent intentNotes = new Intent(MainActivity.this, NotesActivity.class);
-            startActivity(intentNotes);
+        switch (item.getItemId()) {
+            case R.id.action_settings:
+                intent = new Intent(MainActivity.this, NotesActivity.class);
+                startActivity(intent);
+                return true;
 
-            return true;
+            case R.id.action_tasks:
+                intent = new Intent(MainActivity.this, TasksActivity.class);
+                startActivity(intent);
+                return true;
+
+            case R.id.action_cities:
+                intent = new Intent(MainActivity.this, CitiesActivity.class);
+                startActivity(intent);
+                return true;
         }
 
         return super.onOptionsItemSelected(item);
