@@ -54,6 +54,16 @@ public class MainActivity extends AppCompatActivity {
                 intent = new Intent(MainActivity.this, MedicalActivity.class);
                 startActivity(intent);
                 return true;
+
+            case R.id.action_transfer:
+                intent = new Intent(MainActivity.this, TransferActivity.class);
+                startActivity(intent);
+                return true;
+
+            case R.id.action_form:
+                intent = new Intent(MainActivity.this, FormActivity.class);
+                startActivity(intent);
+                return true;
         }
 
         return super.onOptionsItemSelected(item);

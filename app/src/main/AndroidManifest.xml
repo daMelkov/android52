@@ -24,6 +24,7 @@
         <activity android:name=".PressureActivity"/>
         <activity android:name=".LifeValuesActivity"/>
         <activity android:name=".TransferActivity"/>
+        <activity android:name=".FormActivity"/>
     </application>
 
 </manifest>

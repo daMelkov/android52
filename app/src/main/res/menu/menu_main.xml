@@ -39,4 +39,10 @@
         android:title="@string/transfer"
         app:showAsAction="never" />
 
+    <item
+        android:id="@+id/action_form"
+        android:orderInCategory="700"
+        android:title="@string/form"
+        app:showAsAction="never" />
+
 </menu>
